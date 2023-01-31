@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+    background-color: rgb(235, 209, 209);
+}
+.logo{
+    align-self: center;
+    border: 1px solid black;
+}
+.search{
+    align-self: flex-start;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+nav{
+    align-self: flex-end;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    }
+nav ul{
+    display: flex;
+    list-style: none;
+}
+li {
+    padding-left: 20px;
+}
+.button1{
+    align-self: center;
+    border: 1px solid black;
+}
+.button2{
+    align-self: center;
+    border: 1px solid black;
+}
