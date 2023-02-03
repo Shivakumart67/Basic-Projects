@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(BGImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.left {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(GymLogo.png);
+  position: absolute;
+  top: 10px;
+  left: 30px;
+
+  border: 2px solid wheat;
+}
+.mid {
+  margin-top: 10px;
+  z-index: 2;
+
+  border: 2px solid rgb(195, 231, 95);
+}
+.right {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+
+  border: 2px solid rgb(219, 119, 169);
+}
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover,
+.active {
+  color: gray;
+  text-decoration: underline;
+}
+.b1 {
+  background-color: gray;
+  color: rgb(90, 10, 10);
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-right: 20px;
+  
+}
+.b2 {
+    background-color: gray;
+    color: rgb(90, 10, 10);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+  cursor: pointer;
+
+}
+.b1:hover {
+  background-color: rgb(60, 87, 138);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.b2:hover {
+    background-color: rgb(60, 87, 138);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+
+}
